@@ -79,16 +79,7 @@ const ProjectsPage = () => {
         }}
       >
         PROJECTS
-        {/* <motion.span 
-          className="absolute -bottom-1 left-0 w-full h-0.5 bg-red-500"
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.3,
-            ease: [0.16, 1, 0.3, 1]
-          }}
-        /> */}
+        
       </motion.h2>
 
       <motion.hr 

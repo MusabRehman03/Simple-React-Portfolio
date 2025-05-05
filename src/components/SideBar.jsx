@@ -271,7 +271,7 @@ function Sidebar(props) {
               noWrap
               component="div"
             >
-              Wardah Khurram
+              Musab Ur Rehman
             </Typography>
             <Box
               sx={{

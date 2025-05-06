@@ -8,7 +8,7 @@ import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import WebIcon from "@mui/icons-material/Web";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
-
+import ThemeToggle from '@/components/ThemeToggle';
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
@@ -287,6 +287,7 @@ function Sidebar(props) {
                   sx={{ fontSize: "35px", cursor: "pointer" }}
                 />
               </Link>
+              {/* <ThemeToggle /> */}
             </Box>
           </Box>
         </Toolbar>
@@ -299,7 +300,7 @@ function Sidebar(props) {
       >
         {/* flexShrink: { lg: 0 } */}
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Drawer
+        {/* <Drawer
           container={container}
           variant="temporary"
           open={mobileOpen}
@@ -319,7 +320,7 @@ function Sidebar(props) {
           }}
         >
           {drawer}
-        </Drawer>
+        </Drawer> */}
 
         <Drawer
           variant="permanent"

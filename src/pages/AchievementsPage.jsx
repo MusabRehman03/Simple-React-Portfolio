@@ -32,7 +32,7 @@ const AchievementsPage = () => {
 
   // Animation variants
   const container = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     show: {
       opacity: 1,
       transition: {

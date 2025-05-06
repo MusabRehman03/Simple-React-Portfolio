@@ -25,12 +25,12 @@ const ProjectsPage = () => {
 
   // Animation variants
   const container = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     show: {
       opacity: 1,
       transition: {
         staggerChildren: 0.15,
-        delayChildren: 0.2,
+        delayChildren: 0.5,
         ease: [0.16, 1, 0.3, 1] // Premium easing curve
       }
     }
@@ -54,8 +54,8 @@ const ProjectsPage = () => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.1,
-        duration: 0.7,
+        delay: i * 0.3,
+        duration: 1,
         ease: [0.16, 1, 0.3, 1],
         bounce: 0.3
       }

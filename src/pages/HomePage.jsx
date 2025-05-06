@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 export default function HeroSection() {
   // Animation variants
   const container = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 1 },
     show: {
       opacity: 1,
       transition: {
